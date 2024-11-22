@@ -1,0 +1,15 @@
+<div class="card-container">
+    <h2>Announcement Details </h2>
+    <div >
+      <p><strong>ID :</strong> {{ announcement.id }}</p>
+      <p><strong>Title :</strong> {{ announcement.title }}</p>
+      <p><strong>Category :</strong> {{ announcement.category }}</p>
+      <p><strong>Description :</strong> {{ announcement.description }}</p>
+      
+    </div>
+  
+    <button (click)="deleteAnnouncement(announcement.id)" class="btn btn-danger">Supprimer</button>
+
+    <button [routerLink]="['announcement/list']" class="btn">Retour à la liste</button>
+  </div>
+  

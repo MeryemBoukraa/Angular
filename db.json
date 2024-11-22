@@ -1,0 +1,33 @@
+{
+  "announcements": [
+    {
+      "id": "1",
+      "title": "Un lit",
+      "address": "ariana soghra",
+      "category": "lit ",
+      "price": 100,
+      "picture": "https://static.leenbakker.be/products/380x380/12301515.jpg",
+      "datePublication": "2024-04-20",
+      "nbrLike": 1,
+      "description": "un lit en bois",
+      "status": "disponible",
+      "isLiked": true
+    },
+    {
+      "id": "4",
+      "title": "chambre",
+      "address": "ariana",
+      "category": "chambre",
+      "price": 250,
+      "picture": "https://www.style-led.com/cdn/shop/articles/ado_chambre_rgb.png?v=1701426730",
+      "datePublication": "2024-04-20",
+      "nbrLike": 2,
+      "description": "indiv",
+      "surface": 100,
+      "status": "disponible",
+      "roomsNumber": 25,
+      "isLiked": false
+    }
+  ],
+  "users": []
+}
